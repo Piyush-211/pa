@@ -1,0 +1,19 @@
+#include<xc.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<pic18f4550.h>
+Void main(main)
+{
+  Int add;
+  Int array[]={0x02,0x03,0x04};
+  Add=0x00;
+  For (int I = 0; I < 3 ; I++)  
+     {
+          Add=add+array[i];
+      }
+
+   TRISD=0x00;
+  PORTD=add;
+   return; 
+
+}
